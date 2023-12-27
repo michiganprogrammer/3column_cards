@@ -1,0 +1,81 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.card {
+  height: 430px;
+  width: 270px;
+  padding: 40px 40px 0px 40px;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  text-transform:uppercase;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+.boxa {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.boxb {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.boxc {
+  background-color: hsl(179, 100%, 13%);
+}
+
+button {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 40px;
+  border: none;
+}
+
+.buttona {
+  color: hsl(31, 77%, 52%);
+  font-size: 16px;
+}
+
+.buttonb {
+  color: hsl(184, 100%, 22%);
+  font-size: 16px;
+}
+.buttonc {
+  color:hsl(179, 100%, 13%);
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+    margin: 10px;
+    justify-content:start;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+}
